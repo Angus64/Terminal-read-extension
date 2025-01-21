@@ -1,7 +1,7 @@
 Blockly.Python['serial_read'] = function(block) {
 
   Blockly.Python.definitions_['import_sys'] = 'import sys';
-  var dropdown_data_type = Blockly.Python.valueToCode(block, 'data_type', Blockly.ORDER_ATOMIC);
+  var dropdown_data_type = block.getFieldValue('data_type')
 
   var code = ''
   if (dropdown_data_type == 'number') {
