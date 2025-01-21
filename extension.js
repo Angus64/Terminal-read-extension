@@ -7,7 +7,7 @@ Blockly.defineBlocksWithJsonArray([{
       },
       {
         "type": "field_dropdown",
-        "name": "[choose data type]",
+        "name": "data_type",
         "options": [
           [
             "text",
