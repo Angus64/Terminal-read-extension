@@ -1,3 +1,4 @@
+
 Blockly.Blocks['serial_read'] = {
     init: function() {
       this.appendDummyInput()
