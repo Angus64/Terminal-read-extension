@@ -1,7 +1,7 @@
 ({
     name: "Serial Read",
     description: "Read user input from the terminal",
-    author: "Angus Blake",
+    author: "Angus64",
     category: "Communication",
     version: "1.0.0",
     icon: "static/icon.png",
