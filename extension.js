@@ -1,4 +1,4 @@
-Blockly.defineBlocksWithJsonArray([{
+({
     "type": "serial_read",
     "message0": "read %1 %2 %3 from terminal",
     "args0": [
@@ -28,4 +28,4 @@ Blockly.defineBlocksWithJsonArray([{
     "colour": 260,
     "tooltip": "Read user input from the terminal",
     "helpUrl": ""
-  }])
+})
