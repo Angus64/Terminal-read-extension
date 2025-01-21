@@ -8,9 +8,9 @@ Blockly.Blocks['serial_read'] = {
       this.appendDummyInput()
           .appendField("from terminal");
       this.setInputsInline(true);
-      this.setOutput(true, "String");
+      this.setOutput(true, ["String", "Number"]);
       this.setColour(260);
    this.setTooltip("Read user input from the terminal");
-   this.setHelpUrl("");
+   this.setHelpUrl("google.com");
     }
   };
